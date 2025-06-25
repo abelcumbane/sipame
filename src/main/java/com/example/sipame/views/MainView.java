@@ -40,7 +40,7 @@ public class MainView extends AppLayout {
         topHeader.getStyle().set("background-color", "#86bdf7");
         
         Span userLabel = new Span("");
-        Button logout = new Button("Sistema de Gestao", e-> Notification.show("Ainda nao implementado"));
+        Button logout = new Button("SIPAME = SIstema de PAgamento de MEnsalidades", e-> Notification.show("Ainda nao implementado"));
         logout.getStyle().set("background-color", "#4295ed").set("color", "#ffffff");
        
         

@@ -1,0 +1,12 @@
+.active-link {
+    background-color: var(--lumo-primary-color-10pct);
+    font-weight: bold;
+    border-radius: var(--lumo-border-radius-s);
+    padding: var(--lumo-space-xs) var(--lumo-space-m);
+}
+
+.selected-button {
+    background-color: var(--lumo-primary-color-10pct);
+    color: var(--lumo-primary-text-color);
+    font-weight: bold;
+}

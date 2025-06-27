@@ -4,11 +4,14 @@ import java.time.LocalDate;
 import java.time.YearMonth;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 
+
+@Entity
 public class Mensalidade {
 	
 	@Id
@@ -17,7 +20,7 @@ public class Mensalidade {
 
     @ManyToOne
     private Aluno aluno;
-
+ 
     @Column
     private Double valor;
     
